@@ -6,7 +6,10 @@ namespace AddressBookDB
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello Welcome to AddressBookDB !");
+            AddressBookSQLRepo repo = new AddressBookSQLRepo();
+            repo.GetDetails();
+            Console.ReadKey();
         }
     }
 }
