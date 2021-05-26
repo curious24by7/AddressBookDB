@@ -47,6 +47,8 @@ namespace AddressBookDB
                     enter.Zip = zip;
                     enter.PhoneNumber = phoneNumber;
                     enter.Email = email;
+                    if (repo.AddDetails(enter))
+                        Console.WriteLine("Details Added Successfully");
                     break;
                 case "x":
                     return;
