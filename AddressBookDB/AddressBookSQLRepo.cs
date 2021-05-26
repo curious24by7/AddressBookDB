@@ -34,7 +34,7 @@ namespace AddressBookDB
                             addressBookModel.PhoneNumber = reader.GetString(7);
                             addressBookModel.Email = reader.GetString(8);
                             addressBookModel.Type = reader.GetString(9);
-                            addressBookModel.AddressBookName = reader.GetString(11);
+                            addressBookModel.AddressBookName = reader.GetString(10);
                             Console.WriteLine(addressBookModel.ID + " " + addressBookModel.FirstName + " " + addressBookModel.LastName + " " + addressBookModel.Address + " " + addressBookModel.City + " " + addressBookModel.State + " " + addressBookModel.Zip + " " + addressBookModel.PhoneNumber + " " + addressBookModel.Email + " " + addressBookModel.Type + " " + addressBookModel.AddressBookName);
                             Console.WriteLine("\n");
                         }
